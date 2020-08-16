@@ -1,13 +1,19 @@
 /*Stylesheet für die Übungsseite aus "Einstieg in HTML +CSS" */
 body {
-  background-color: floralwhite;
   color: black;
 }
 
 header {
-  background-color: steelblue;
-  color: white;
+  color: black;
   padding: 1rem;
+}
+
+header h1{
+  margin-bottom: 0;
+}
+
+header p{
+  margin-top: 0;
 }
 
 nav li {
@@ -46,4 +52,5 @@ footer a{
 
 html {
   scroll-behavior: smooth;
+  background-color: floralwhite;
 }
